@@ -2,7 +2,6 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Players from './components/Players/Players';
 import Team from './components/Team/Team';
-import Header from './components/Header/Header';
 
 function App() {
     const [players, setPlayers] = useState([]);
@@ -21,7 +20,6 @@ function App() {
 
     return (
         <div>
-            <Header />
             <div class="container text-light">
                 <div className="App" class="row d-flex">
                     <div class="col-9">
